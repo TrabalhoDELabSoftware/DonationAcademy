@@ -1,0 +1,84 @@
+﻿@model DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>AdminRegistroUsuarioViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailRegister" class="control-label"></label>
+                <input asp-for="EmailRegister" class="form-control" />
+                <span asp-validation-for="EmailRegister" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsVendedor" /> @Html.DisplayNameFor(model => model.IsVendedor)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsGerente" /> @Html.DisplayNameFor(model => model.IsGerente)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsAdmin" /> @Html.DisplayNameFor(model => model.IsAdmin)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsDoador" /> @Html.DisplayNameFor(model => model.IsDoador)
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="GeneratedPasswordEdit" class="control-label"></label>
+                <div class="input-group">
+                    <input asp-for="GeneratedPasswordEdit" class="form-control" readonly required />
+                    <div class="input-group-append">
+                        <button id="btnGeneratePasswordEdit" type="button" class="btn btn-secondary">Gerar senha aleatória</button>
+                    </div>
+                </div>
+                <span asp-validation-for="GeneratedPasswordEdit" class="text-danger"></span>
+            </div>
+
+            @section Scripts {
+                <script>
+                    $('#btnGeneratePasswordEdit').click(function () {
+                        $.ajax({
+                            url: '@Url.Action("GenerateRandomPassword", "AdminUsuarios")',
+                            type: 'GET',
+                            success: function (data) {
+                                $('#GeneratedPasswordEdit').val(data);
+                            }
+                        });
+                    });
+                </script>
+            }
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

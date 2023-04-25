@@ -1,0 +1,46 @@
+﻿@model FileManagerDoadorModel
+
+@{
+    ViewData["Title"] = "UploadFiles";
+}
+
+<style>
+    img {
+        margin-top: 30px;
+    }
+</style>
+
+<img src="~/images/folder.png" />
+
+<hr />
+
+<div class="jumbotron jumbotron-fluid">
+
+    <div class="container">
+
+        @if (!string.IsNullOrEmpty(Model.Mensagem))
+        {
+            <h4>@Model.Mensagem</h4>
+        }
+
+        @if (!string.IsNullOrEmpty(ViewData["Erro"] as string))
+        {
+            <h4>@ViewData["Erro"]</h4>
+        }
+
+    </div>
+
+    <div class="container">
+        @if (Model.Arquivos != null && Model.Arquivos.Any())
+        {
+            <h4>Arquivos enviados:</h4>
+            <ul>
+                @foreach (string arquivo in Model.Arquivos)
+                {
+                    <li>@arquivo</li>
+                }
+            </ul>
+        }
+    </div>
+
+</div>

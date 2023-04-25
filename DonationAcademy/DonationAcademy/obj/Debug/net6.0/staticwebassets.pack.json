@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\Ajuda.webp"
     },
     {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Donation.png",
+      "PackagePath": "staticwebassets\\images\\Donation.png"
+    },
+    {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Materiais.webp",
       "PackagePath": "staticwebassets\\images\\Materiais.webp"
     },
@@ -33,8 +37,28 @@
       "PackagePath": "staticwebassets\\images\\Material3.webp"
     },
     {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\area-restrita.png",
+      "PackagePath": "staticwebassets\\images\\area-restrita.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\cadastro.png",
+      "PackagePath": "staticwebassets\\images\\cadastro.png"
+    },
+    {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\caderno.webp",
       "PackagePath": "staticwebassets\\images\\caderno.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\cart2.png",
+      "PackagePath": "staticwebassets\\images\\cart2.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\email.png",
+      "PackagePath": "staticwebassets\\images\\email.png"
     },
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\estojo.webp",
@@ -45,12 +69,68 @@
       "PackagePath": "staticwebassets\\images\\facebook-app-symbol.svg"
     },
     {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\folder.png",
+      "PackagePath": "staticwebassets\\images\\folder.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\information.png",
+      "PackagePath": "staticwebassets\\images\\information.png"
+    },
+    {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\instagram.svg",
       "PackagePath": "staticwebassets\\images\\instagram.svg"
     },
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\livros.webp",
       "PackagePath": "staticwebassets\\images\\livros.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\management.png",
+      "PackagePath": "staticwebassets\\images\\management.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\padlock.png",
+      "PackagePath": "staticwebassets\\images\\padlock.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\pencil.png",
+      "PackagePath": "staticwebassets\\images\\pencil.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\c46c5b65-7bec-4f78-ba30-1792a32997d1\\29f58a25-a1cf-4d3d-8300-dad17ba50ca5.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\c46c5b65-7bec-4f78-ba30-1792a32997d1\\29f58a25-a1cf-4d3d-8300-dad17ba50ca5.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\c46c5b65-7bec-4f78-ba30-1792a32997d1\\dfe31547-0cc1-4f1a-a8f4-20f2dc0e7bdf.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\c46c5b65-7bec-4f78-ba30-1792a32997d1\\dfe31547-0cc1-4f1a-a8f4-20f2dc0e7bdf.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\shopee.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtos\\shopee.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\search.png",
+      "PackagePath": "staticwebassets\\images\\search.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\team-management.png",
+      "PackagePath": "staticwebassets\\images\\team-management.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\technical-support.png",
+      "PackagePath": "staticwebassets\\images\\technical-support.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\trash-bin.png",
+      "PackagePath": "staticwebassets\\images\\trash-bin.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\trash.svg",
+      "PackagePath": "staticwebassets\\images\\trash.svg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\whatsapp_logo_icon.png",
+      "PackagePath": "staticwebassets\\images\\whatsapp_logo_icon.png"
     },
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\js\\site.js",

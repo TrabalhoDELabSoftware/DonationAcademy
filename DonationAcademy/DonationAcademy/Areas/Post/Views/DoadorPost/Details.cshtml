@@ -1,0 +1,82 @@
+﻿@model DonationAcademy.Areas.Doador.Models.DoadorM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    h1 {
+        margin-top: 30px;
+    }
+
+    a {
+        color: white;
+    }
+</style>
+
+<div>
+    <img src="/images/information.png" />
+</div>
+
+<h1>Informações da publicação</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DescricaoCurta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DescricaoCurta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DescricaoDetalhada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DescricaoDetalhada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImagemUrl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ImagemUrl)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ImagemThumbnailUrl)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ImagemThumbnailUrl)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class = "col-sm-2">
+            Categoria
+            @*@Html.DisplayNameFor(model => model.CategoriaDoador)*@
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CategoriaDoador.CategoriaDoadorNome)
+        </dd>
+
+     @*<dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
+        </dt>*@
+
+       @* <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.Id)
+        </dd>*@
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

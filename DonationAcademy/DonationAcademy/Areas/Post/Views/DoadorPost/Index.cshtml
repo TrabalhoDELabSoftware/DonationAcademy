@@ -1,0 +1,105 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<DonationAcademy.Areas.Doador.Models.DoadorM>
+
+@{
+    ViewData["Title"] = "Contribuições";
+}
+
+<style>
+    h3 {
+        margin-top: 30px;
+    }
+    th, tr, a {
+        color: white;
+    }
+</style>
+
+<div>
+    <img src="/images/Donation.png" />
+</div>
+
+  <h3>Suas contribuições</h3>
+
+<form method="get" class="form-inline">
+    <input name="filter" class="form-control" placeholder="filtro"
+           value="@Model.RouteValue["Filter"]" />
+    <br />
+    <button type="submit" class="btn btn-info">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Procurar
+    </button>
+</form>
+<br />
+Total de Doações: @Model.TotalRecordCount
+<div>
+    <vc:pager paging-list="@Model"></vc:pager>
+</div>
+<br />
+
+<p>
+    <a asp-action="Create">Fazer uma doação</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoCurta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoDetalhada)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.ImagemUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagemThumbnailUrl)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.CategoriaDoador)
+            </th>*@
+           @* <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoCurta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoDetalhada)
+            </td>
+           @* <td>
+                @Html.DisplayFor(modelItem => item.ImagemUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImagemThumbnailUrl)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.CategoriaDoador.CategoriaDoadorNome)
+            </td>*@
+           @* <td>
+                @Html.DisplayFor(modelItem => item.User.Id)
+            </td>*@
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

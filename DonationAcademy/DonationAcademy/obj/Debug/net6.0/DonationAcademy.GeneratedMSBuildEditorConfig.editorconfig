@@ -12,9 +12,245 @@ build_property.RootNamespace = DonationAcademy
 build_property.ProjectDir = D:\DonationAcademy\DonationAcademy\DonationAcademy\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\DonationAcademy\DonationAcademy\DonationAcademy
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminCategorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminCategorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminCategorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminCategorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminCategorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminImagens/GetImagens.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbWFnZW5zXEdldEltYWdlbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminImagens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbWFnZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminImagens/UploadFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbWFnZW5zXFVwbG9hZEZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminMateriais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXRlcmlhaXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminMateriais/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXRlcmlhaXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminMateriais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXRlcmlhaXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminMateriais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXRlcmlhaXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminMateriais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYXRlcmlhaXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminPedidos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminPedidos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminPedidos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminPedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminPedidos/PedidoMateriais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXFBlZGlkb01hdGVyaWFpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminPedidos/PedidoNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QZWRpZG9zXFBlZGlkb05vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminRelatorioVendas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5SZWxhdG9yaW9WZW5kYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminRelatorioVendas/RelatorioVendasSimples.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5SZWxhdG9yaW9WZW5kYXNcUmVsYXRvcmlvVmVuZGFzU2ltcGxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminUsuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc3Vhcmlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminUsuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc3Vhcmlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminUsuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc3Vhcmlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminUsuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc3Vhcmlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/AdminUsuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc3Vhcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/DoadorMaterial/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXERvYWRvck1hdGVyaWFsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/DoadorMaterial/ListDoador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXERvYWRvck1hdGVyaWFsXExpc3REb2Fkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/Shared/Components/CategoriaDoadorMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXENhdGVnb3JpYURvYWRvck1lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/Shared/_MaterialDoadoresResumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXFNoYXJlZFxfTWF0ZXJpYWxEb2Fkb3Jlc1Jlc3Vtby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/AdminCategoriaDoador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXEFkbWluQ2F0ZWdvcmlhRG9hZG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/AdminCategoriaDoador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXEFkbWluQ2F0ZWdvcmlhRG9hZG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/AdminCategoriaDoador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXEFkbWluQ2F0ZWdvcmlhRG9hZG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/AdminCategoriaDoador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXEFkbWluQ2F0ZWdvcmlhRG9hZG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/AdminCategoriaDoador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXEFkbWluQ2F0ZWdvcmlhRG9hZG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/AdminPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXEFkbWluUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/DoadorPost/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xEb2Fkb3JQb3N0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/DoadorPost/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xEb2Fkb3JQb3N0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/DoadorPost/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xEb2Fkb3JQb3N0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/DoadorPost/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xEb2Fkb3JQb3N0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/DoadorPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xEb2Fkb3JQb3N0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/ImagensPost/GetImagens.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xJbWFnZW5zUG9zdFxHZXRJbWFnZW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/ImagensPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xJbWFnZW5zUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/ImagensPost/UploadFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xJbWFnZW5zUG9zdFxVcGxvYWRGaWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/AlterarSenha/AlterarSenhaView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0ZXJhclNlbmhhXEFsdGVyYXJTZW5oYVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/CarrinhoCompra/Carrinho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcQ2FycmluaG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Contato/ContatoView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDb250YXRvVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -24,8 +260,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/MaterialPago/MaterialPago.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxQYWdvXE1hdGVyaWFsUGFnby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Material/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Material/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Pedido/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Pedido/CheckoutCompleto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0Q29tcGxldG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FycmluaG9Db21wcmFSZXN1bW9cRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/Components/CategoriaMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmlhTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/_MateriaisResumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYXRlcmlhaXNSZXN1bW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -39,6 +311,22 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d9h7vlnsts
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Doador/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRG9hZG9yXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-nd35xfrvbq
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/PostAdmin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdEFkbWluXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-cunvfpsdvb
+
+[D:/DonationAcademy/DonationAcademy/DonationAcademy/Areas/Post/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-4vhxaw7f05
 
 [D:/DonationAcademy/DonationAcademy/DonationAcademy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
