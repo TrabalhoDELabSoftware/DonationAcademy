@@ -195,7 +195,6 @@ namespace DonationAcademy.Areas.Admin.Controllers
         }
 
 
-        // POST: AdminUsuariosController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, AdminRegistroUsuarioViewModel model)
@@ -208,9 +207,6 @@ namespace DonationAcademy.Areas.Admin.Controllers
                 {
                     return NotFound();
                 }
-
-                user.Email = model.EmailRegister;
-                user.UserName = model.UserName;
 
                 var userExists = await _userManager.FindByNameAsync(model.UserName);
                 if (userExists != null && userExists.Id != user.Id)
@@ -226,7 +222,8 @@ namespace DonationAcademy.Areas.Admin.Controllers
                     return View(model);
                 }
 
-                
+                user.Email = model.EmailRegister;
+                user.UserName = model.UserName;
 
                 if (!string.IsNullOrEmpty(model.GeneratedPasswordEdit))
                 {
@@ -272,6 +269,7 @@ namespace DonationAcademy.Areas.Admin.Controllers
 
             return View(model);
         }
+
 
 
 
@@ -337,6 +335,21 @@ namespace DonationAcademy.Areas.Admin.Controllers
         }
 
         public IActionResult GenerateRandomPassword()
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-{}[]|\\:;\"'<>,.?/";
+            var password = new StringBuilder();
+            var random = new Random();
+
+            while (password.Length < 10)
+            {
+                password.Append(chars[random.Next(chars.Length)]);
+            }
+
+            return Ok(password.ToString());
+        }
+
+
+        public IActionResult GenerateRandomPasswordEdit()
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-{}[]|\\:;\"'<>,.?/";
             var password = new StringBuilder();
