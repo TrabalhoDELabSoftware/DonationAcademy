@@ -1,4 +1,5 @@
 ﻿using DonationAcademy.Domain;
+
 using Microsoft.AspNetCore.Identity;
 
 using System.ComponentModel.DataAnnotations;
@@ -42,10 +43,7 @@ namespace DonationAcademy.Areas.Admin.ViewModels
         [Display(Name = "Senha gerada aleatoriamente")]
         public string GeneratedPassword { get; set; }
 
-        [SenhaValidation(ErrorMessage = "Formato de senha inválido!")]
-        [StringLength(100, MinimumLength = 0, ErrorMessage = "A senha deve ter no máximo {1} caracteres.")]
-        [Display(Name = "Senha gerada aleatoriamente")]
-        public string GeneratedPasswordEdit { get; set; }
+        
 
     }
 }

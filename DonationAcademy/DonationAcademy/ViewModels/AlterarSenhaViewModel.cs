@@ -8,7 +8,7 @@ namespace DonationAcademy.ViewModels
         [Required(ErrorMessage = "Informe sua senha atual")]
         [DataType(DataType.Password)]
         [Display(Name = "Senha atual")]
-        [SenhaValidation(ErrorMessage = "Formato de senha inválido")]
+        [SenhaValidationAttribute(ErrorMessage = "Formato de senha inválido")]
         public string PasswordNow { get; set; }
 
         [Required(ErrorMessage = "Informe sua nova senha")]

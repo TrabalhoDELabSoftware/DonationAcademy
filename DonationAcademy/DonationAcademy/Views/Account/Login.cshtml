@@ -82,23 +82,26 @@
 
                         </form>
 
-                        @if (!ViewData.ModelState.IsValid)
-                        {
-                            <div class="alert alert-danger">
-                                <ul>
-                                    @{
-                                        var errorMessage = "Credenciais incorretas!";
-                                        var error = ViewData.ModelState.Values
-                                        .SelectMany(v => v.Errors)
-                                        .FirstOrDefault(e => e.ErrorMessage == errorMessage);
+                        @{
 
-                                        if (error != null)
-                                        {
+                            if (!ViewData.ModelState.IsValid)
+                            {
+                                var errorMessage = "Credenciais incorretas!";
+                                var error = ViewData.ModelState.Values
+                                .SelectMany(v => v.Errors)
+                                .FirstOrDefault(e => e.ErrorMessage == errorMessage);
+
+                                if (error != null)
+                                {
+
+                                    <div class="alert alert-danger">
+                                        <ul>
+
                                             <li>@errorMessage</li>
-                                        }
-                                    }
-                                </ul>
-                            </div>
+                                        </ul>
+                                    </div>
+                                }
+                            }
                         }
 
                     </div>

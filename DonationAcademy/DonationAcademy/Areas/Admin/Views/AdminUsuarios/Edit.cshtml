@@ -1,4 +1,4 @@
-﻿@model DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioViewModel
+﻿@model DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioEditViewModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -47,24 +47,24 @@
             </div>
 
             <div class="form-group">
-                <label asp-for="GeneratedPasswordEdit" class="control-label"></label>
+                <label asp-for="GeneratedPassword" class="control-label"></label>
                 <div class="input-group">
-                    <input asp-for="GeneratedPasswordEdit" class="form-control" />
+                    <input asp-for="GeneratedPassword" class="form-control" readonly />
                     <div class="input-group-append">
                         <button id="btnGeneratePasswordEdit" type="button" class="btn btn-secondary">Gerar senha aleatória</button>
                     </div>
                 </div>
-                <span asp-validation-for="GeneratedPasswordEdit" class="text-danger"></span>
+                <span asp-validation-for="GeneratedPassword" class="text-danger"></span>
             </div>
 
             @section Scripts {
                 <script>
                     $('#btnGeneratePasswordEdit').click(function () {
                         $.ajax({
-                            url: '@Url.Action("GenerateRandomPasswordEdit", "AdminUsuarios")',
+                            url: '@Url.Action("GenerateRandomPassword", "AdminUsuarios")',
                             type: 'GET',
                             success: function (data) {
-                                $('#GeneratedPasswordEdit').val(data);
+                                $('#GeneratedPassword').val(data);
                             }
                         });
                     });

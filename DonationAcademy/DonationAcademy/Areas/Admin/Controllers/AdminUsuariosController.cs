@@ -181,7 +181,7 @@ namespace DonationAcademy.Areas.Admin.Controllers
 
             var roles = await _userManager.GetRolesAsync(user);
 
-            var model = new AdminRegistroUsuarioViewModel
+            var model = new AdminRegistroUsuarioEditViewModel
             {
                 UserName = user.UserName,
                 EmailRegister = user.Email,
@@ -197,7 +197,7 @@ namespace DonationAcademy.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, AdminRegistroUsuarioViewModel model)
+        public async Task<IActionResult> Edit(string id, AdminRegistroUsuarioEditViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -225,10 +225,10 @@ namespace DonationAcademy.Areas.Admin.Controllers
                 user.Email = model.EmailRegister;
                 user.UserName = model.UserName;
 
-                if (!string.IsNullOrEmpty(model.GeneratedPasswordEdit))
+                if (!string.IsNullOrEmpty(model.GeneratedPassword))
                 {
                     var passwordHasher = new PasswordHasher<IdentityUser>();
-                    var passwordHash = passwordHasher.HashPassword(user, model.GeneratedPasswordEdit);
+                    var passwordHash = passwordHasher.HashPassword(user, model.GeneratedPassword);
                     user.PasswordHash = passwordHash;
                 }
 
@@ -335,21 +335,6 @@ namespace DonationAcademy.Areas.Admin.Controllers
         }
 
         public IActionResult GenerateRandomPassword()
-        {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-{}[]|\\:;\"'<>,.?/";
-            var password = new StringBuilder();
-            var random = new Random();
-
-            while (password.Length < 10)
-            {
-                password.Append(chars[random.Next(chars.Length)]);
-            }
-
-            return Ok(password.ToString());
-        }
-
-
-        public IActionResult GenerateRandomPasswordEdit()
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-{}[]|\\:;\"'<>,.?/";
             var password = new StringBuilder();

@@ -21,12 +21,12 @@ namespace DonationAcademy.ViewModels
         [Required(ErrorMessage = "Informe a senha!")]
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
-        [SenhaValidation(ErrorMessage = "Senha requer entre 6 e 20 caracteres!")]
+        [SenhaValidationAttribute(ErrorMessage = "Senha requer entre 6 e 20 caracteres!")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Confirme sua senha")]
         [DataType(DataType.Password)]
-        [SenhaValidation(ErrorMessage = "Senha requer entre 6 e 20 caracteres!")]
+        [SenhaValidationAttribute(ErrorMessage = "Senha requer entre 6 e 20 caracteres!")]
         [Compare(nameof(Password), ErrorMessage = "A senha e a confirmação não são iguais")]
         [Display(Name = "Confirmar senha")]
         public string PasswordConfirm { get; set; }
