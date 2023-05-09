@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - DonationAcademy</title>
+    <title>@ViewData["Title"] - Donation Academy</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DonationAcademy.styles.css" asp-append-version="true" />
+    <link rel="icon" href="@Url.Content("~/icon/favicon.ico")" />
 </head>
 <body>
     @*Área administrativa*@
@@ -134,7 +135,7 @@
     <footer class="border-top footer text-muted">
         <div class="container">
 
-            <span class="copy"> &copy; @DateTime.Now.Year - Donation Academy</span>
+            <span class="copy"> &copy; @DateTime.Now.Year - <img style="height:30px;" src="~/images/DonationLogo.png" />Donation Academy</span>
 
             <nav>
 

@@ -55,6 +55,8 @@ namespace DonationAcademy.Controllers
 
         }
 
+        
+
         [AllowAnonymous]
         public IActionResult Register()
         {

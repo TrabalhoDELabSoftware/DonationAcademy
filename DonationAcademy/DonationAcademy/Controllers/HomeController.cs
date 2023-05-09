@@ -18,7 +18,12 @@ namespace DonationAcademy.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult ContribuicaoFinanceiro()
+        {
+            return View();
+        }
+
+        public IActionResult About()
         {
             return View();
         }

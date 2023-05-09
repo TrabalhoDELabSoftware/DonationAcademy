@@ -83,7 +83,7 @@ namespace DonationAcademy.Areas.Post.Controllers
         // POST: DoadorPostController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,DescricaoCurta,DescricaoDetalhada,ImagemUrl,ImagemThumbnailUrl,Telefone,CategoriaDoadorId")] DoadorM doadorM)
+        public async Task<IActionResult> Create([Bind("Id,Nome,NomeCompleto,DescricaoCurta,DescricaoDetalhada,ImagemUrl,ImagemThumbnailUrl,Telefone,CategoriaDoadorId")] DoadorM doadorM)
         {
             if (ModelState.IsValid)
             {
@@ -120,7 +120,7 @@ namespace DonationAcademy.Areas.Post.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,DescricaoCurta,DescricaoDetalhada,ImagemUrl,ImagemThumbnailUrl,Telefone,CategoriaDoadorId")] DoadorM doadorM)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,NomeCompleto,DescricaoCurta,DescricaoDetalhada,ImagemUrl,ImagemThumbnailUrl,Telefone,CategoriaDoadorId")] DoadorM doadorM)
         {
             if (id != doadorM.Id)
             {
@@ -144,6 +144,7 @@ namespace DonationAcademy.Areas.Post.Controllers
                 {
                     // Atualiza a postagem
                     doadorPost.Nome = doadorM.Nome;
+                    doadorPost.NomeCompleto = doadorM.NomeCompleto;
                     doadorPost.DescricaoCurta = doadorM.DescricaoCurta;
                     doadorPost.DescricaoDetalhada = doadorM.DescricaoDetalhada;
                     doadorPost.ImagemUrl = doadorM.ImagemUrl;
@@ -196,7 +197,7 @@ namespace DonationAcademy.Areas.Post.Controllers
 
 
         // POST: DoadorPostController/Delete/5
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

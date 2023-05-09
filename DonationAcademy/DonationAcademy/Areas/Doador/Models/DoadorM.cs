@@ -16,6 +16,11 @@ namespace DonationAcademy.Areas.Doador.Models
         [StringLength(80, MinimumLength = 3, ErrorMessage = "O nome deve ter entre 3 e 80 caracteres!")]
         public string Nome { get; set; }
 
+        [Required(ErrorMessage = "Informe o seu nome!")]
+        [Display(Name = "Nome do Doador(a)")]
+        [StringLength(80, MinimumLength = 3, ErrorMessage = "O nome deve ter entre 3 e 80 caracteres!")]
+        public string NomeCompleto { get; set; }
+
         [Required(ErrorMessage = "A descrição do material deve ser informada!")]
         [Display(Name = "Descrição breve do Material")]
         [MinLength(20, ErrorMessage = "Descrição deve ter no mínimo {1} caracteres")]

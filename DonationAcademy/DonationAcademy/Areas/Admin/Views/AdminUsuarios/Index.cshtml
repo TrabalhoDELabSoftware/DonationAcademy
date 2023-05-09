@@ -1,7 +1,7 @@
 ﻿@model ReflectionIT.Mvc.Paging.PagingList<DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioViewModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Gerenciar usuários";
 }
 
 <style>
@@ -14,7 +14,7 @@
     }
 </style>
 
-<h3>Usuários</h3>
+<h3>Gerenciamento de Usuários</h3>
 
 
 
@@ -35,13 +35,15 @@
 
 <br />
 
-Total de Funcionários: @Model.TotalRecordCount
+Total de Usuários: @Model.TotalRecordCount
+
+<br />
 
 @await this.Component.InvokeAsync("Pager", new { pagingList = this.Model })
 
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Adicionar usuário</a>
 </p>
 <table class="table">
     <thead>
@@ -52,7 +54,7 @@ Total de Funcionários: @Model.TotalRecordCount
             <th>
                 @Html.DisplayNameFor(model => model.EmailRegister)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.IsVendedor)
             </th>
             <th>
@@ -63,10 +65,10 @@ Total de Funcionários: @Model.TotalRecordCount
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IsDoador)
-            </th>
-            <th>
+            </th>*@
+            @*<th>
                 @Html.DisplayNameFor(model => model.GeneratedPassword)
-            </th>
+            </th>*@
 
            <th></th>
         </tr>
@@ -80,7 +82,7 @@ Total de Funcionários: @Model.TotalRecordCount
             <td>
                 @Html.DisplayFor(modelItem => item.EmailRegister)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.IsVendedor)
             </td>
             <td>
@@ -91,15 +93,15 @@ Total de Funcionários: @Model.TotalRecordCount
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IsDoador)
-            </td>
-            <td>
+            </td>*@
+           @* <td>
                 @Html.DisplayFor(modelItem => item.GeneratedPassword)
-            </td>
+            </td>*@
             
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
             </td>
         </tr>
 }

@@ -3,10 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - DonationAcademy</title>
+    <title>@ViewData["Title"] - Donation Academy</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/DonationAcademy.styles.css" asp-append-version="true" />
+    <link rel="icon" href="@Url.Content("~/icon/favicon.ico")" />
+    
 </head>
 <body>
     <header>
@@ -44,6 +46,10 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="MaterialPago" asp-action="MaterialPago">Materiais pagos</a>
                             </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContribuicaoFinanceiro">Contribuições financeiras</a>
+                            </li>
+
                             <li>
                                 <form class="navbar-form navbar-left" asp-controller="Material" asp-action="Search" method="get">
                                     <div class="form-group" style="height:5px">
@@ -55,7 +61,7 @@
 
                             <li style="margin-left:8px;">@await Component.InvokeAsync("CarrinhoCompraResumo")</li>
 
-                            <li class="nav-item" style="margin-left: 36%;">
+                            <li class="nav-item" style="margin-left: 26%;">
                                 <div class="dropdown">
 
                                     <a class="btn btn-light dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -103,10 +109,8 @@
                         {
                             @*Alinhamento a esquerda*@
 
-                            @*<li><img style="height:42px; margin-top:auto;" src="~/images/Jk.png" /></li>*@
-                            <li>
-                                <span class="navbar-brand">DonationAcademy</span>
-                            </li>
+                            <li><img style="height:47px; margin-top:auto" src="~/images/DonationLogo.png" /></li>
+                           
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
@@ -115,8 +119,12 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Contato" asp-action="ContatoView">Contato</a>
                             </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">Sobre</a>
+                            </li>
+                            
                             @*Alinhamento a direita*@
-                            <li class="nav-item" style="margin-left: 63%;">
+                            <li class="nav-item" style="margin-left: 73%;">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
                             </li>
 
@@ -138,7 +146,7 @@
     <footer class="border-top footer text-muted">
         <div class="container">
 
-            <span class="copy"> &copy; @DateTime.Now.Year - Donation Academy</span>
+            <span class="copy"> &copy; @DateTime.Now.Year - Donation Academy <img style="height:30px;" src="~/images/DonationLogo.png" /></span>
 
             <nav>
 

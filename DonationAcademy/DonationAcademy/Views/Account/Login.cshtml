@@ -76,11 +76,29 @@
                                 <div class="col-md-8">
                                     <input type="submit" class="btn btn-success" value="Log in" />
                                 </div>
+                                <br />
                             </div>
 
-                            <br />
 
                         </form>
+
+                        <div>
+
+                            <button id="esqueceuSenhaBtn" style="border-radius:5px; height:43px;" class="btn-danger">
+                                Esqueceu sua senha?
+                            </button>
+
+                            <script>
+                                document.getElementById("esqueceuSenhaBtn").addEventListener("click", function () {
+                                    // Obter a URL da action usando o Razor
+                                    var url = '@Url.Action("EsqueceuSenha", "EsqueceuSenha")';
+
+                                    // Redirecionar para a URL
+                                    window.location.href = url;
+                                });
+                            </script>
+
+                        </div>
 
                         @{
 

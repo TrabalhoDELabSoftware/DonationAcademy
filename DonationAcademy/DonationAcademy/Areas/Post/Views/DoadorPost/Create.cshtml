@@ -1,7 +1,7 @@
 ﻿@model DonationAcademy.Areas.Doador.Models.DoadorM
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Fazer uma doação";
 }
 
 <style>
@@ -31,6 +31,13 @@
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
+             
+            <div class="form-group">
+                <label asp-for="NomeCompleto" class="control-label"></label>
+                <input asp-for="NomeCompleto" class="form-control" />
+                <span asp-validation-for="NomeCompleto" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <label asp-for="DescricaoCurta" class="control-label"></label>
                 <input asp-for="DescricaoCurta" class="form-control" />

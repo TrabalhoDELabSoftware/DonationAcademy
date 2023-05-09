@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\icon\\favicon.ico",
+      "PackagePath": "staticwebassets\\icon\\favicon.ico"
     },
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Ajuda.webp",
@@ -19,6 +19,10 @@
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Donation.png",
       "PackagePath": "staticwebassets\\images\\Donation.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\DonationLogo.png",
+      "PackagePath": "staticwebassets\\images\\DonationLogo.png"
     },
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Materiais.webp",
@@ -57,6 +61,10 @@
       "PackagePath": "staticwebassets\\images\\cart2.png"
     },
     {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\crownfounding.png",
+      "PackagePath": "staticwebassets\\images\\crownfounding.png"
+    },
+    {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\email.png",
       "PackagePath": "staticwebassets\\images\\email.png"
     },
@@ -71,6 +79,10 @@
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\folder.png",
       "PackagePath": "staticwebassets\\images\\folder.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\forgot-password.png",
+      "PackagePath": "staticwebassets\\images\\forgot-password.png"
     },
     {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\information.png",

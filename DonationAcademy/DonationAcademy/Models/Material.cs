@@ -30,7 +30,7 @@ namespace DonationAcademy.Models
         [Required(ErrorMessage = "Informe o preço do Material!")]
         [Display(Name = "Preço")]
         [Column(TypeName = "decimal(10, 2)")]
-        [Range(0, 85, ErrorMessage = "O preço deve estar entre 0,00 e 85,00")]
+        [Range(0, 150, ErrorMessage = "O preço deve estar entre 0,00 e 150")]
         public decimal Preco { get; set; }
 
         [Display(Name = "Caminho Imagem Normal")]

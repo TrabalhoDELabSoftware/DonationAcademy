@@ -1,13 +1,26 @@
 ﻿@model DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioViewModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes do Usuário";
 }
 
-<h1>Details</h1>
+
+<style>
+    h1 {
+        margin-top: 30px;
+    }
+
+    .row .form-group {
+        margin-top: 20px;
+    }
+
+</style>
+
+
+<h1>Informações do Usuário</h1>
 
 <div>
-    <h4>AdminRegistroUsuarioViewModel</h4>
+    
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -16,12 +29,12 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.UserName)
         </dd>
-        <dt class = "col-sm-2">
+        @*<dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.EmailRegister)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.EmailRegister)
-        </dd>
+        </dd>*@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.IsVendedor)
         </dt>
@@ -46,16 +59,16 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IsDoador)
         </dd>
-        <dt class = "col-sm-2">
+        @*<dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.GeneratedPassword)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.GeneratedPassword)
-        </dd>
+        </dd>*@
 
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" style="color:white">Editar</a> |
+    <a asp-action="Index" style="color:white">Voltar</a>
 </div>

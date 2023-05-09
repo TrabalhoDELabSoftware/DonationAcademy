@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Areas\PostAdmin\Views\AdminCategoriaDoador\Delete.cshtml~RF3cbd2a7c.TMP" />
     <None Remove="dgc4rt05.hxa~" />
     <None Remove="Program.cs~RF11accbc7.TMP" />
+    <None Remove="Views\Shared\_Layout.cshtml.css~RF3d6dbfcf.TMP" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +29,10 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\produtosDoacao\" />
     <Folder Include="wwwroot\images\produtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\icon\favicon.ico" />
   </ItemGroup>
 
 </Project>

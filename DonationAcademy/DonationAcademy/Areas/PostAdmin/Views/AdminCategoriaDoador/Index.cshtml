@@ -14,7 +14,7 @@
     }
 </style>
 
-<h3>Gerenciar Categorias</h3>
+<h3>Gerenciar Categorias de Doação</h3>
 
 <p>
     <a asp-action="Create">Criar Categoria</a>
@@ -41,9 +41,9 @@
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CategoriaDoadorId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CategoriaDoadorId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CategoriaDoadorId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.CategoriaDoadorId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.CategoriaDoadorId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.CategoriaDoadorId">Deletar</a>
             </td>
         </tr>
 }

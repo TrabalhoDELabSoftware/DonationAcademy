@@ -1,14 +1,26 @@
 ﻿@model DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioEditViewModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Usuário";
 }
 
 
+<style>
+    h1 {
+        margin-top: 30px;
+    }
 
-<h1>Edit</h1>
+    .row .form-group {
+        margin-top: 20px;
+    }
 
-<h4>AdminRegistroUsuarioViewModel</h4>
+    .voltar a {
+        color: white;
+    }
+</style>
+
+<h1>Editar Usuário</h1>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -27,22 +39,22 @@
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsVendedor" /> @Html.DisplayNameFor(model => model.IsVendedor)
+                    <input class="form-check-input" asp-for="IsVendedor" onchange="selectOnlyThis('vendedor')" id="vendedor" /> @Html.DisplayNameFor(model => model.IsVendedor)
                 </label>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsGerente" /> @Html.DisplayNameFor(model => model.IsGerente)
+                    <input class="form-check-input" asp-for="IsGerente" onchange="selectOnlyThis('gerente')" id="gerente" /> @Html.DisplayNameFor(model => model.IsGerente)
                 </label>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsAdmin" /> @Html.DisplayNameFor(model => model.IsAdmin)
+                    <input class="form-check-input" asp-for="IsAdmin" onchange="selectOnlyThis('admin')" id="admin" /> @Html.DisplayNameFor(model => model.IsAdmin)
                 </label>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsDoador" /> @Html.DisplayNameFor(model => model.IsDoador)
+                    <input class="form-check-input" asp-for="IsDoador" onchange="selectOnlyThis('areadoacao')" id="areadoacao" /> @Html.DisplayNameFor(model => model.IsDoador)
                 </label>
             </div>
 
@@ -51,7 +63,7 @@
                 <div class="input-group">
                     <input asp-for="GeneratedPassword" class="form-control" readonly />
                     <div class="input-group-append">
-                        <button id="btnGeneratePasswordEdit" type="button" class="btn btn-secondary">Gerar senha aleatória</button>
+                        <button id="btnGeneratePasswordEdit" type="button" class="btn btn-secondary">Resetar senha</button>
                     </div>
                 </div>
                 <span asp-validation-for="GeneratedPassword" class="text-danger"></span>
@@ -69,10 +81,30 @@
                         });
                     });
                 </script>
+
+                <script>
+                    const checkboxes = document.querySelectorAll('.form-check-input');
+
+                    function selectOnlyThis(id) {
+                        checkboxes.forEach((checkbox) => {
+                            if (checkbox.id === id) {
+                                if (checkbox.checked) {
+                                    checkboxes.forEach((otherCheckbox) => {
+                                        if (otherCheckbox !== checkbox) {
+                                            otherCheckbox.checked = false;
+                                        }
+                                    });
+                                }
+                            }
+                        });
+                    }
+
+
+                </script>
             }
 
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -80,7 +112,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="voltar">
+    <a asp-action="Index">Voltar</a>
 </div>
 

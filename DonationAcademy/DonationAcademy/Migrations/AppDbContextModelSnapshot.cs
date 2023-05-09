@@ -22,6 +22,41 @@ namespace DonationAcademy.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioViewModel", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("EmailRegister")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GeneratedPassword")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsAdmin")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDoador")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsGerente")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsVendedor")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AdminRegistroUsuarioViewModel");
+                });
+
             modelBuilder.Entity("DonationAcademy.Areas.Doador.Models.CategoriaDoador", b =>
                 {
                     b.Property<int>("CategoriaDoadorId")
@@ -75,6 +110,11 @@ namespace DonationAcademy.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(80)
+                        .HasColumnType("nvarchar(80)");
+
+                    b.Property<string>("NomeCompleto")
                         .IsRequired()
                         .HasMaxLength(80)
                         .HasColumnType("nvarchar(80)");
