@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DonationAcademy.Models
 {
+    //SingleOrDefault --> Método alternativo para adicionar ou remover itens
+   // do carrinho
     public class CarrinhoCompra
     {
         private readonly AppDbContext _context;
@@ -41,11 +43,11 @@ namespace DonationAcademy.Models
                 CarrinhoCompraId = carrinhoId
             };
         }
-        
+
         public void AdicionarAoCarrinho(Material material)
         {
             var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
-                
+
                 s => s.Material.MaterialId == material.MaterialId &&
                 s.CarrinhoCompraId == CarrinhoCompraId);
 
@@ -73,7 +75,7 @@ namespace DonationAcademy.Models
 
         public int RemoverDoCarrinho(Material material)
         {
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(
 
                s => s.Material.MaterialId == material.MaterialId &&
                s.CarrinhoCompraId == CarrinhoCompraId);

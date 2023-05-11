@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Data;
 using ReflectionIT.Mvc.Paging;
 using DonationAcademy.ViewModels;
+using System.Globalization;
 
 namespace DonationAcademy.Areas.Admin.Controllers
 {
@@ -78,6 +79,7 @@ namespace DonationAcademy.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+
 
             return View(pedido);
         }

@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Hosting.Internal;
+using Microsoft.EntityFrameworkCore;
+using DonationAcademy.Context;
 
 namespace DonationAcademy.Areas.Post.Controllers
 {
@@ -22,12 +24,14 @@ namespace DonationAcademy.Areas.Post.Controllers
             IWebHostEnvironment hostingEnvironment,
             IOptions<ConfigurationDoadorImagens> myConfiguration,
             UserManager<IdentityUser> userManager,
-            FileManagerDoadorModel fileManager)
+            FileManagerDoadorModel fileManager,
+            AppDbContext context)
         {
             _hostingEnvironment = hostingEnvironment;
             _myConfig = myConfiguration.Value;
             _userManager = userManager;
             _fileManager = fileManager;
+            
         }
 
         public IActionResult Index()
@@ -145,7 +149,6 @@ namespace DonationAcademy.Areas.Post.Controllers
 
             return View("Index");
         }
-
 
 
     }

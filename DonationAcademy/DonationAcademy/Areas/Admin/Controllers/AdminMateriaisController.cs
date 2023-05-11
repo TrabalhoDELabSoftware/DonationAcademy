@@ -14,7 +14,7 @@ using ReflectionIT.Mvc.Paging;
 namespace DonationAcademy.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = RolesTypes.Admin + "," + RolesTypes.Vendedor)]
+    [Authorize(Roles = RolesTypes.Admin + "," + RolesTypes.Vendedor + "," + RolesTypes.Gerente)]
     public class AdminMateriaisController : Controller
     {
         private readonly AppDbContext _context;

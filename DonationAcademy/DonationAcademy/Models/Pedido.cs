@@ -72,7 +72,7 @@ namespace DonationAcademy.Models
 
         [Display(Name = "Data do Pedido")]
         [DataType(DataType.Text)]
-        [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy hh:mm}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy HH:mm}", ApplyFormatInEditMode = true)]
         public DateTime PedidoEnviado { get; set; }
 
         public List<PedidoDetalhe> PedidoItens { get; set; }

@@ -4,6 +4,7 @@ using DonationAcademy.Areas.Doador.ViewModels;
 using DonationAcademy.Models;
 
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
@@ -14,10 +15,12 @@ namespace DonationAcademy.Areas.Doador.Controllers
     public class DoadorMaterialController : Controller
     {
         private readonly IMaterialDoadorRepository _materialDoadorRepository;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public DoadorMaterialController(IMaterialDoadorRepository materialDoadorRepository)
+        public DoadorMaterialController(IMaterialDoadorRepository materialDoadorRepository, UserManager<IdentityUser> userManager)
         {
             _materialDoadorRepository = materialDoadorRepository;
+            _userManager = userManager;
         }
 
         public IActionResult ListDoador(string categoria)
@@ -51,13 +54,28 @@ namespace DonationAcademy.Areas.Doador.Controllers
 
         }
 
-        public IActionResult Details(int id)
+
+        public async Task<IActionResult> Details(int id)
         {
             var doador = _materialDoadorRepository.DoadorMs.FirstOrDefault(dm => dm.Id == id);
 
-            return View(doador);
+            if (doador == null)
+            {
+                return NotFound();
+            }
 
+            // Obter o usuário associado à postagem
+            var user = await _userManager.FindByIdAsync(doador.UserId);
+
+            if (user != null)
+            {
+                // Atribuir o usuário à propriedade User do objeto DoadorM
+                doador.User = user;
+            }
+
+            return View(doador);
         }
+
 
         public IActionResult Search(string searchString)
         {
@@ -90,6 +108,6 @@ namespace DonationAcademy.Areas.Doador.Controllers
 
         }
 
-        
+
     }
 }

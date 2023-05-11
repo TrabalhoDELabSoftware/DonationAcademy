@@ -7,7 +7,7 @@ using Microsoft.Extensions.Options;
 namespace DonationAcademy.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles = RolesTypes.Admin + "," + RolesTypes.Vendedor)]
+    [Authorize(Roles = RolesTypes.Admin + "," + RolesTypes.Vendedor + "," + RolesTypes.Gerente)]
     public class AdminImagensController : Controller
     {
         private readonly ConfigurationImagens _myConfig;

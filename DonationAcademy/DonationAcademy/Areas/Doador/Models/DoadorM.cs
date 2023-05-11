@@ -53,5 +53,6 @@ namespace DonationAcademy.Areas.Doador.Models
 
         public string UserId { get; set; }
         public virtual IdentityUser User { get; set; }
+
     }
 }
