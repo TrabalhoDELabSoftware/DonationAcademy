@@ -1,0 +1,79 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-d9h7vlnsts] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-d9h7vlnsts] {
+  color: #0077cc;
+}
+
+.btn-primary[b-d9h7vlnsts] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-d9h7vlnsts], .nav-pills .show > .nav-link[b-d9h7vlnsts] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-d9h7vlnsts] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-d9h7vlnsts] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-d9h7vlnsts] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-d9h7vlnsts] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+footer[b-d9h7vlnsts] {
+    position: relative;
+    top: 30px;
+}
+
+footer[b-d9h7vlnsts] {
+    bottom: 0;
+    width: 100%;
+    line-height: 75px;
+    overflow: hidden;
+}
+
+    footer .container .copy[b-d9h7vlnsts] {
+        color: whitesmoke;
+    }
+
+    footer nav .redes-sociais[b-d9h7vlnsts] {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        footer nav .redes-sociais li[b-d9h7vlnsts] {
+            /*text-align: center;*/
+            margin: 15px 28px;
+            display: inline-block;
+        }
+
+
+            footer nav .redes-sociais li a img[b-d9h7vlnsts] {
+                width: 40px;
+                transition: .2s;
+            }
+
+
+            footer nav .redes-sociais li a:hover img[b-d9h7vlnsts] {
+                transform: scale(1.2) translateY(-10px);
+            } 

@@ -1,0 +1,109 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<DonationAcademy.Areas.Admin.ViewModels.AdminRegistroUsuarioViewModel>
+
+@{
+    ViewData["Title"] = "Gerenciar usuários";
+}
+
+<style>
+    h3 {
+        margin-top: 30px;
+    }
+
+    th, tr, a {
+        color: white;
+    }
+</style>
+
+<h3>Gerenciamento de Usuários</h3>
+
+
+
+<form method="get" class="form-inline">
+
+    <input name="filter" class="form-control" placeholder="filtro"
+           value="@Model.RouteValue["Filter"]" />
+
+    <br />
+
+    <button type="submit" class="btn btn-info">
+
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Procurar
+
+    </button>
+
+</form>
+
+<br />
+
+Total de Usuários: @Model.TotalRecordCount
+
+<br />
+
+@await this.Component.InvokeAsync("Pager", new { pagingList = this.Model })
+
+
+<p>
+    <a asp-action="Create">Adicionar usuário</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailRegister)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.IsVendedor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsGerente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAdmin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDoador)
+            </th>*@
+            @*<th>
+                @Html.DisplayNameFor(model => model.GeneratedPassword)
+            </th>*@
+
+           <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailRegister)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.IsVendedor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsGerente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAdmin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDoador)
+            </td>*@
+           @* <td>
+                @Html.DisplayFor(modelItem => item.GeneratedPassword)
+            </td>*@
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

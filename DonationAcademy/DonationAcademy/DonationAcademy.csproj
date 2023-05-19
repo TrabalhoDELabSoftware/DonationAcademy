@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Areas\PostAdmin\Views\AdminCategoriaDoador\Delete.cshtml~RF3cbd2a7c.TMP" />
+    <None Remove="dgc4rt05.hxa~" />
+    <None Remove="Program.cs~RF11accbc7.TMP" />
+    <None Remove="Views\Shared\_Layout.cshtml.css~RF3d6dbfcf.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="ReflectionIT.Mvc.Paging" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\produtosDoacao\" />
+    <Folder Include="wwwroot\images\produtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\icon\favicon.ico" />
+  </ItemGroup>
+
+</Project>

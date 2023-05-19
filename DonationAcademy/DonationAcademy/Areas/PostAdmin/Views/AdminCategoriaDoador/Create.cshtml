@@ -1,0 +1,49 @@
+﻿@model DonationAcademy.Areas.Doador.Models.CategoriaDoador
+
+@{
+    ViewData["Title"] = "Criar";
+}
+
+<style>
+    h2 {
+        margin-top: 30px;
+    }
+
+    .row .form-group {
+        margin-top: 20px;
+    }
+
+    .voltar a {
+        color: white;
+    }
+</style>
+
+<h2>Criar Categoria para Doação</h2>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CategoriaDoadorNome" class="control-label"></label>
+                <input asp-for="CategoriaDoadorNome" class="form-control" />
+                <span asp-validation-for="CategoriaDoadorNome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="voltar">
+    <a asp-action="Index">Voltar</a>
+</div>
+
