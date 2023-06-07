@@ -30,7 +30,7 @@ namespace DonationAcademy.Models
         [Required(ErrorMessage = "Informe o preço do Material!")]
         [Display(Name = "Preço")]
         [Column(TypeName = "decimal(10, 2)")]
-        [Range(0, 150, ErrorMessage = "O preço deve estar entre 0,00 e 150")]
+        [Range(1, 999, ErrorMessage = "O preço deve estar entre 1,00 e 999,00")]
         public decimal Preco { get; set; }
 
         [Display(Name = "Caminho Imagem Normal")]
@@ -45,7 +45,7 @@ namespace DonationAcademy.Models
         [Display(Name = "Estoque")]
         public bool EmEstoque { get; set; }
 
-        [Display(Name = "Tornar esse material pago")]
+        [Display(Name = "Material preferido")]
         public bool IsMaterialPago { get; set; }
 
         public int CategoriaId { get; set; }
