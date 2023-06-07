@@ -496,6 +496,105 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\427d3f1a-2b1b-493c-a0a6-d385b9593ccf.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\0c202538-ae5b-4359-b2ce-8f4139e7451c.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DonationAcademy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DonationAcademy</BasePath>
+      <RelativePath>images/produtosDoacao/3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db/0c202538-ae5b-4359-b2ce-8f4139e7451c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\0c202538-ae5b-4359-b2ce-8f4139e7451c.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\0e12e210-0d43-46ac-9d91-68ed2e956b38.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DonationAcademy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DonationAcademy</BasePath>
+      <RelativePath>images/produtosDoacao/3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db/0e12e210-0d43-46ac-9d91-68ed2e956b38.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\0e12e210-0d43-46ac-9d91-68ed2e956b38.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\21cb7b9a-88ff-4629-bb75-d11e85e000a3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DonationAcademy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DonationAcademy</BasePath>
+      <RelativePath>images/produtosDoacao/3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db/21cb7b9a-88ff-4629-bb75-d11e85e000a3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\21cb7b9a-88ff-4629-bb75-d11e85e000a3.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\31b4199c-1a76-4f03-902c-f8f65643c01b.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DonationAcademy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DonationAcademy</BasePath>
+      <RelativePath>images/produtosDoacao/3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db/31b4199c-1a76-4f03-902c-f8f65643c01b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\31b4199c-1a76-4f03-902c-f8f65643c01b.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\926638a8-e607-4d81-bb42-817eec2e1014.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DonationAcademy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DonationAcademy</BasePath>
+      <RelativePath>images/produtosDoacao/3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db/926638a8-e607-4d81-bb42-817eec2e1014.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\926638a8-e607-4d81-bb42-817eec2e1014.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\ed087cea-471e-42a1-8c11-c714a635c105.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DonationAcademy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DonationAcademy</BasePath>
+      <RelativePath>images/produtosDoacao/3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db/ed087cea-471e-42a1-8c11-c714a635c105.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\produtosDoacao\3e12f2f8-8cb0-4e3c-8e00-1f2c091c45db\ed087cea-471e-42a1-8c11-c714a635c105.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+>>>>>>> b054671ff6a36f8cfcd48f492cd06d86abcdc80e
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\search.png))">
       <SourceType>Package</SourceType>
       <SourceId>DonationAcademy</SourceId>
