@@ -121,6 +121,14 @@
       "PackagePath": "staticwebassets\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\427d3f1a-2b1b-493c-a0a6-d385b9593ccf.jpeg"
     },
     {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\EstojoVerde.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtos\\EstojoVerde.jpeg"
+    },
+    {
       "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\shopee.jpeg",
       "PackagePath": "staticwebassets\\images\\produtos\\shopee.jpeg"
     },

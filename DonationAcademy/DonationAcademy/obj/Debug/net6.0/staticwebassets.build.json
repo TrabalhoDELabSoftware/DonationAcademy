@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x3+nywfpDm0+xUG07upFxFYovkjwxNmm44CoDIgJ8mk=",
+  "Hash": "FxkNbe1poK0UcG9tZNyCD7BPMqRlwHyMsq9DHU4Sihc=",
   "Source": "DonationAcademy",
   "BasePath": "_content/DonationAcademy",
   "Mode": "Default",
@@ -493,6 +493,23 @@
       "OriginalItemSpec": "wwwroot\\images\\pencil.png"
     },
     {
+      "Identity": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\EstojoVerde.jpeg",
+      "SourceId": "DonationAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\",
+      "BasePath": "_content/DonationAcademy",
+      "RelativePath": "images/produtos/EstojoVerde.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\produtos\\EstojoVerde.jpeg"
+    },
+    {
       "Identity": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\shopee.jpeg",
       "SourceId": "DonationAcademy",
       "SourceType": "Discovered",
@@ -559,6 +576,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\427d3f1a-2b1b-493c-a0a6-d385b9593ccf.jpeg"
+    },
+    {
+      "Identity": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg",
+      "SourceId": "DonationAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\",
+      "BasePath": "_content/DonationAcademy",
+      "RelativePath": "images/produtosDoacao/3b1a5d6a-b259-4ae1-9704-001bf77ba9b1/8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg"
     },
     {
       "Identity": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\search.png",
