@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\DonationAcademy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DonationAcademy.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\icon\\favicon.ico",
+      "PackagePath": "staticwebassets\\icon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Ajuda.webp",
+      "PackagePath": "staticwebassets\\images\\Ajuda.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Donation.png",
+      "PackagePath": "staticwebassets\\images\\Donation.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\DonationLogo.png",
+      "PackagePath": "staticwebassets\\images\\DonationLogo.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Materiais.webp",
+      "PackagePath": "staticwebassets\\images\\Materiais.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Material1.webp",
+      "PackagePath": "staticwebassets\\images\\Material1.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Material2.webp",
+      "PackagePath": "staticwebassets\\images\\Material2.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\Material3.webp",
+      "PackagePath": "staticwebassets\\images\\Material3.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\area-restrita.png",
+      "PackagePath": "staticwebassets\\images\\area-restrita.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\cadastro.png",
+      "PackagePath": "staticwebassets\\images\\cadastro.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\caderno.webp",
+      "PackagePath": "staticwebassets\\images\\caderno.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\cart2.png",
+      "PackagePath": "staticwebassets\\images\\cart2.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\crownfounding.png",
+      "PackagePath": "staticwebassets\\images\\crownfounding.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\email.png",
+      "PackagePath": "staticwebassets\\images\\email.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\estojo.webp",
+      "PackagePath": "staticwebassets\\images\\estojo.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\facebook-app-symbol.svg",
+      "PackagePath": "staticwebassets\\images\\facebook-app-symbol.svg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\folder.png",
+      "PackagePath": "staticwebassets\\images\\folder.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\forgot-password.png",
+      "PackagePath": "staticwebassets\\images\\forgot-password.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\information.png",
+      "PackagePath": "staticwebassets\\images\\information.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\instagram.svg",
+      "PackagePath": "staticwebassets\\images\\instagram.svg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\livros.webp",
+      "PackagePath": "staticwebassets\\images\\livros.webp"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\management.png",
+      "PackagePath": "staticwebassets\\images\\management.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\padlock.png",
+      "PackagePath": "staticwebassets\\images\\padlock.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\pencil.png",
+      "PackagePath": "staticwebassets\\images\\pencil.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3235a566-657e-4e53-a218-9bc74e700c95\\24926bd3-8ca7-448a-b223-b9567de3f015.jpg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\3235a566-657e-4e53-a218-9bc74e700c95\\24926bd3-8ca7-448a-b223-b9567de3f015.jpg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\0951ef9b-9437-44c3-a93a-d3f7260abf9a.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\0951ef9b-9437-44c3-a93a-d3f7260abf9a.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\3f01af1b-ff1f-4221-bdb6-4c3bfd34ca80.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\3f01af1b-ff1f-4221-bdb6-4c3bfd34ca80.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\427d3f1a-2b1b-493c-a0a6-d385b9593ccf.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\427d3f1a-2b1b-493c-a0a6-d385b9593ccf.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtosDoacao\\3b1a5d6a-b259-4ae1-9704-001bf77ba9b1\\8a077e30-7d44-4ef0-bdd4-19bbbf0f5fc4.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\EstojoVerde.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtos\\EstojoVerde.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\produtos\\shopee.jpeg",
+      "PackagePath": "staticwebassets\\images\\produtos\\shopee.jpeg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\search.png",
+      "PackagePath": "staticwebassets\\images\\search.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\team-management.png",
+      "PackagePath": "staticwebassets\\images\\team-management.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\technical-support.png",
+      "PackagePath": "staticwebassets\\images\\technical-support.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\trash-bin.png",
+      "PackagePath": "staticwebassets\\images\\trash-bin.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\trash.svg",
+      "PackagePath": "staticwebassets\\images\\trash.svg"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\images\\whatsapp_logo_icon.png",
+      "PackagePath": "staticwebassets\\images\\whatsapp_logo_icon.png"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DonationAcademy\\DonationAcademy\\DonationAcademy\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.DonationAcademy.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.DonationAcademy.props",
+      "PackagePath": "build\\DonationAcademy.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DonationAcademy.props",
+      "PackagePath": "buildMultiTargeting\\DonationAcademy.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.DonationAcademy.props",
+      "PackagePath": "buildTransitive\\DonationAcademy.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
